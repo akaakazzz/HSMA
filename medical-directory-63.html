@@ -1,0 +1,306 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <meta name="description" id="metaPageDescription" content="Medical Directory for the Harley Street Medical Area, London." />
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
+    <link id="PostingCanonicalUrlCurrent1" rel="canonical" href="https://harleystreetmedicalarea.com/medical-directory" />
+    <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52aafee9631e62a6"></script>
+    <!--<script type="text/javascript" async=async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_IN-xap5FWJdKLAClUb8hU8FeA7-sIYw&libraries=places&callback=initMapHome"></script>-->
+	
+    <script type="text/javascript">
+        var SiteDomainURl = 'https://harleystreetmedicalarea.com/';
+    </script>
+
+	  <style>
+        .grecaptcha-badge {
+            display: none;
+            visibility: hidden;
+        }
+    </style>
+	
+    <title>
+
+
+        Medical Directory &#8211; Harley Street Medical Area London W1
+    </title>
+    <link rel="Stylesheet" href="/css/style.css" type="text/css" />
+    <!-- jquery -->
+    <script type="text/javascript" src="/scripts/libs/plugin.js"></script>
+    <script type="text/javascript" src="/scripts/scripts.js"></script>
+	<script>
+        function SubmitNewsLetterCallback(token) {
+        }
+        
+		function onSubmitNewLetterHome(token) {
+
+            var frm = document.getElementById("signup");
+            frm.action = "https://r1.dmtrk.net/signup.ashx";
+
+            var reslt = validate_signupIndex(frm);
+
+            //alert(reslt);
+            if (reslt) {
+                frm.submit();
+                //setCookie('HSMASubscribeNewsletter', 'true', 31);
+            }
+            else { 
+                document.location.href = document.location.href;
+            }
+        }
+
+		function validate_signupPopup() {
+
+			var frm = document.getElementById("signupPopup");
+
+                   // alert('aya');
+                    var number = -2;
+                    var emailAddress = frm.Email.value;
+                    var errorString = '';
+                    if (emailAddress == '' || emailAddress.indexOf('@') == -1) {
+                        errorString = 'Please enter your email address';
+                        number = -1;
+                    }
+
+                    var els = frm.getElementsByTagName('input');
+
+                    for (var i = 0; i < els.length; i++) {
+                        if (els[i].className == 'text' || els[i].className == 'date' || els[i].className == 'number') {
+                            if (els[i].value == '') {
+                                errorString = 'Please complete all required fields.';
+                                if (number < 0)
+                                    number = i;
+                            }
+                        }
+                        else if (els[i].className == 'radio') {
+                            var toCheck = document.getElementsByName(els[i].name);
+                            var radioChecked = false;
+                            for (var j = 0; j < toCheck.length; j++) {
+                                if (toCheck[j].name == els[i].name && toCheck[j].checked)
+                                    radioChecked = true;
+                            }
+                            if (!radioChecked) {
+                                errorString = 'Please complete all required fields.';
+                                if (number < 0)
+                                    number = i;
+                            }
+                        }
+                    }
+
+					
+
+					var isError = false;
+                    if (errorString.length > 0)
+                        isError = true;
+
+                    if (isError) {
+                        $("#lblmessagePopup").text(errorString);
+                        if (number == -1) {
+                            $('#emailPopup').focus();
+                        }
+                        else {
+                            els[number].focus();
+                        }
+					}
+
+					////var response = grecaptcha.getResponse(jQuery('#btnSubmitSignupPopup').attr('data-widget-id'));
+
+					////if(!isError && response!= null && response.length > 0)
+					if(!isError)
+					{
+						frm.ReturnURL.value = document.location.href;
+						frm.submit();
+						return true;
+					}
+
+					return false;
+                    ////return !isError; 
+                }
+    </script>
+
+        <meta name="description" id="metaPageDescription" content="Medical Directory for the Harley Street Medical Area, London." />
+        <meta property="og:image" id="metaSharingImage" />
+        <meta property="og:url" content="https://harleystreetmedicalarea.com/medical-directory" />
+        <meta property="og:title" content="Medical Directory" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://harleystreetmedicalarea.com/media/1041/location-location-45d894af.jpg" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="300" />
+        <meta property="og:image:alt" content="Medical Directory" />
+        <meta property="og:site_name" content="Medical Directory" />
+        <meta property="fb:app_id" content="884080101745639" />
+        <meta property="og:updated_time" content="638101455167221889" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="Medical Directory" />
+        <meta name="twitter:title" content="Medical Directory" />
+        <meta name="twitter:image" content="https://harleystreetmedicalarea.com/media/1041/location-location-45d894af.jpg?scrape=true" />
+</head>
+<body class="home">
+
+
+
+
+    <!-- page wrapper start -->
+    <div id="outer-wrapper">
+        <div class="subscribe" style="display:none;">
+            <div class="inner">
+                <a class="close s-set ir" href="">close</a>
+                <div class="subscribe-text">
+                    <p>Be the first to hear about the latest news and events</p>
+                    <a class="subscribe-btn" href="Javascript:;">SUBSCRIBE NOW</a>
+                </div>
+            </div>
+        </div>
+
+
+<header>
+    <div id="header">
+        <!-- page logo start -->
+        <a class="logo ir" href="/">HARLEY STREET MEDICAL AREA LONDON W1</a>
+        <!-- page logo end -->
+        <!-- page menu button start -->
+        <a class="menu ir" href="#">Menu</a>
+        <!-- page menu button end -->
+        <!-- page navigation start -->
+        <nav>
+
+            <a class="close ir" href="#">close</a>
+            <ul>
+                            <li>
+                    <a href="/arab-health" title="Arab Health">Arab Health</a>
+            </li>
+            <li>
+                    <a href="/medical-directory" class="active" title="Medical Directory">Medical Directory</a>
+            </li>
+            <li>
+                    <a href="/news-features" title="News &amp; Features">News &amp; Features</a>
+            </li>
+            <li>
+                    <a href="/location" title="Location">Location</a>
+            </li>
+            <li>
+                    <a href="/where-to-stay" title="Where to Stay">Where to Stay</a>
+            </li>
+            <li>
+                    <a href="/about" title="About">About</a>
+            </li>
+            <li>
+                    <a href="/contact" title="Contact">Contact</a>
+            </li>
+
+
+                <li class="mobile"><a class="maphome" href="javascript:;">Map</a></li>
+               
+            </ul>
+
+            <div class="top-box">
+                <div class="search">
+                    <input type="text" id="searchInput" placeholder="Search" class="ng-pristine ng-untouched ng-valid">
+                    <a class="ir" href="javascript:;">Search</a>
+                </div>
+                <a class="maphome" href="javascript:;">Map</a>
+            </div>
+
+
+            <div class="newsletter mobile">
+                <h2>SIGN UP TO OUR NEWSLETTER</h2>
+                <input id="txtName" name="txtName" type="text" placeholder="First Name*" />
+                <input id="txtCompany" name="txtCompany" type="text" placeholder="Last Name*" />
+                <input id="txtEmail" name="txtEmail" type="text" placeholder="Email Address*" />
+
+                <span class="last">
+                    <input id="phone_h" type="checkbox" value="1" name="phone_h" />
+                    I agree to the
+                    <a id="link-terms" href="javascript://">Terms and conditions</a>
+                    <tt>*</tt>
+                </span>
+                <input id="SUBSCRIBE" type="submit" value="SUBMIT" />
+            </div>
+
+        </nav>
+        <!-- page navigation end -->
+    </div>
+</header>
+
+
+        <!-- page content start -->
+        <section>
+
+            
+<div id="content">
+    <!-- page content start -->
+    <div class="content">
+        <div class="content-inner">
+            <div class="page-text">
+                <h1>DIRECTORY</h1>
+
+<p>The Harley Street Medical Area (HSMA) is a collective of hospitals, clinics and specialists who deliver outstanding patient care through pioneering treatments and cutting edge technologies. HSMA brings together a community of medical professionals who provide access to the best medical treatments and services in the world and are at the forefront of advancing global medical practices, right here in the city of London.</p>                <div class="search">
+                    <div>
+                        <input type="text" id="directorytextsearch" placeholder="Search the Medical Directory" />
+                        <a class="ir serachtext" href="javascript:;">Search</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter">
+                <span>or filter:</span>
+                <ul>
+                    <li><a class="all" style="cursor:pointer" href="/medical-directory">DISPLAY  ALL</a></li>
+                    <li><a class="specialty" href="javascript:;">SELECT A SPECIALITY </a></li>
+                    
+                </ul>
+            </div>
+        </div>
+
+
+
+
+    <div class="category-filter">
+        <div>
+            <ul>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=accident+and+emergency">Accident and Emergency</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=allergy+and+immunology">Allergy and Immunology</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=alternative+and+complimentary">Alternative and Complimentary</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=audiological+medicine">Audiological Medicine</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=breast+cancer">Breast Cancer</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=bunion+removal">Bunion Removal</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=cancer">Cancer</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=cardiology">Cardiology</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=cardiothoracic+surgery">Cardiothoracic surgery</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=cosmetic">Cosmetic</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=cosmetic+body+surgery">Cosmetic Body Surgery</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=cosmetic+breast+surgery">Cosmetic Breast Surgery</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=cosmetic+facial+surgery">Cosmetic Facial Surgery</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=cosmetic+medicine+and+therapy">Cosmetic medicine and therapy</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=dementia">Dementia</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=dental+laboratory">Dental laboratory</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=dentistry">Dentistry</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=dermatology">Dermatology</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=diagnostics">Diagnostics</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=ear+nose+and+throat">Ear Nose and Throat</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=elderly+medicine">Elderly medicine</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=embryology">Embryology</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=endocrinology+and+diabetes">Endocrinology and Diabetes</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=facial+aesthetics">Facial aesthetics</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=fat+removal">Fat Removal</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=fertility%2fivf%2fembryology">Fertility/ivf/embryology</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=gastroenterology">Gastroenterology</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=general+medicine">General medicine</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=general+practice">General Practice</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=general+surgery">General Surgery</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=genetics">Genetics</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=geriatrics">Geriatrics</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=gynaecology">Gynaecology</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=haematology">Haematology</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=hair+restoration">Hair Restoration</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=head+and+neck+cancer">Head and Neck Cancer</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=implants">Implants</a></li>
+                    <li><a href="https://harleystreetmedicalarea.com/medical-directory?category=internal+medicine">Internal
